@@ -20,7 +20,7 @@ function ProductTable(){
 
 
         const response = await fetch(
-            "http://localhost:5000/products"
+            "/products"
         );
 
 
@@ -35,7 +35,7 @@ async function deleteProduct(id){
 
 
 await fetch(
-`http://localhost:5000/products/${id}`,
+`/products/${id}`,
 {
 
 method:"DELETE"

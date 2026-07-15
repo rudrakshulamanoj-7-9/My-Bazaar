@@ -1,8 +1,29 @@
 import { useEffect, useState } from "react";
-import { AppBar, Toolbar, Typography, Button, Container, Box } from "@mui/material";
+import { AppBar, Toolbar, Typography, Button, Container, Box, Paper, Stack } from "@mui/material";
+import { Routes, Route, Navigate, Link } from "react-router-dom";
 import Register from "./Register";
 import Login from "./Login";
-import Product from "./Product";
+import BuyProductsPage from "./BuyProductsPage";
+import SellProductsPage from "./SellProductsPage";
+
+function ChoiceScreen() {
+  return (
+    <Box sx={{ py: 3 }}>
+      <Paper sx={{ p: 4, maxWidth: 700, mx: "auto" }}>
+        <Typography variant="h5" sx={{ mb: 2 }}>What do you want to do?</Typography>
+        <Typography variant="body1" sx={{ mb: 3 }}>Choose one option below to continue.</Typography>
+        <Stack direction={{ xs: "column", sm: "row" }} spacing={2}>
+          <Button fullWidth variant="contained" size="large" component={Link} to="/buy">
+            Buy a product
+          </Button>
+          <Button fullWidth variant="outlined" size="large" component={Link} to="/sell">
+            Sell a product
+          </Button>
+        </Stack>
+      </Paper>
+    </Box>
+  );
+}
 
 function App() {
   const [user, setUser] = useState(null);
@@ -30,7 +51,10 @@ function App() {
           <Typography variant="h6" sx={{ flexGrow: 1 }}>My Bazaar</Typography>
           {user ? (
             <>
-              <Typography sx={{ mr: 2 }}>Hello, {user.name}</Typography>
+              <Button color="inherit" component={Link} to="/">Home</Button>
+              <Button color="inherit" component={Link} to="/buy">Buy</Button>
+              <Button color="inherit" component={Link} to="/sell">Sell</Button>
+              <Typography sx={{ mx: 2 }}>Hello, {user.name}</Typography>
               <Button color="inherit" onClick={handleLogout}>Logout</Button>
             </>
           ) : (
@@ -49,10 +73,12 @@ function App() {
         )}
 
         {user && (
-          <Box>
-            <Typography variant="body1" sx={{ mb: 2 }}>You are signed in and can buy or sell items.</Typography>
-            <Product user={user} />
-          </Box>
+          <Routes>
+            <Route path="/" element={<ChoiceScreen />} />
+            <Route path="/buy" element={<BuyProductsPage />} />
+            <Route path="/sell" element={<SellProductsPage user={user} />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
         )}
       </Container>
     </div>

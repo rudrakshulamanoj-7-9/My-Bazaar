@@ -50,7 +50,7 @@ app.get("/",(req,res)=>{
 
 
     res.send(
-        "MY-BAZAAR Backend Running"
+        "MY-BAZAAR"
     );
 
 
@@ -90,6 +90,7 @@ app.delete(
 "/products/:id",
 deleteProduct
 );
+
 
 
 
