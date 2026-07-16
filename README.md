@@ -48,4 +48,3 @@ At its heart, **My-Bazaar** is built on the principles of a circular economy. Th
 ### 🛍️ Buyer Experience
 * Search and filter through local items.
 * View clean checkout and product detail screens.
-*
