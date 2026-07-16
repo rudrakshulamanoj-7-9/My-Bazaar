@@ -1,7 +1,4 @@
 const {connectDB}=require("../src/config/db");
-
-// GET ALL PRODUCTS
-
 async function getProducts(req,res){
 
     try{
