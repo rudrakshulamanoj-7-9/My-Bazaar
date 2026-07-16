@@ -3,13 +3,8 @@
 A digital marketplace platform designed to connect local buyers and sellers seamlessly, ensuring smooth transactions and efficient trade.
 
 ![Status](https://img.shields.io/badge/STATUS-ACTIVE-brightgreen)
-![Theme](https://img.shields.io/badge/THEME-RECYCLE%20%26%20REUSE-green)
 ![Frontend](https://img.shields.io/badge/FRONTEND-HTML%20%7C%20CSS%20%7C%20JS-blue)
-
----
-
-## 🌱 Core Philosophy: Sustainability First
-At its heart, **My-Bazaar** is built on the principles of a circular economy. The platform actively promotes sustainability by encouraging the trading, recycling, and reusing of products to reduce waste and support eco-friendly local commerce.
+![Backend](https://img.shields.io/badge/BACKEND-NODE%20%7C%20EXPRESS-orange)
 
 ---
 
@@ -31,9 +26,13 @@ Traditional local market buying and selling can be unorganized, making it diffic
 
 ## 🎯 Objectives
 * Enable direct and simple trade between buyers and sellers.
-* **Promote sustainable consumption by facilitating the reuse and recycling of goods.**
 * Provide an easy-to-use digital storefront for small businesses.
 * Reduce overhead costs and dependency on third-party aggregators.
+
+---
+
+## 🌱 Core Philosophy & Sustainability
+At its heart, **My-Bazaar** is built on the principles of a circular economy. The platform actively promotes sustainability by encouraging the trading, recycling, and reusing of products to reduce waste and support eco-friendly local commerce.
 
 ---
 
@@ -44,8 +43,9 @@ Traditional local market buying and selling can be unorganized, making it diffic
 
 ### 🏪 Seller Dashboard
 * Add, edit, and delete product listings.
-* Highlight recycled or reusable items with special product tags.
+* Option to tag items as recycled or reusable.
 
 ### 🛍️ Buyer Experience
 * Search and filter through local items.
 * View clean checkout and product detail screens.
+*
