@@ -49,4 +49,3 @@ Traditional local market buying and selling can be unorganized, making it diffic
 ### 🛍️ Buyer Experience
 * Search and filter through local items.
 * View clean checkout and product detail screens.
-*
