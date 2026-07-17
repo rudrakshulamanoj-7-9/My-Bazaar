@@ -31,8 +31,8 @@ Traditional local market buying and selling can be unorganized, making it diffic
 
 ---
 
-## 🌱 Core Philosophy & Sustainability
-At its heart, **My-Bazaar** is built on the principles of a circular economy. The platform actively promotes sustainability by encouraging the trading, recycling, and reusing of products to reduce waste and support eco-friendly local commerce.
+## 🌱 Eco-friendly & Sustainability
+**My-Bazaar** is built on the principles of a circular economy. The platform actively promotes sustainability by encouraging the trading, recycling, and reusing of products to reduce waste and support eco-friendly local commerce.
 
 ---
 
@@ -48,3 +48,17 @@ At its heart, **My-Bazaar** is built on the principles of a circular economy. Th
 ### 🛍️ Buyer Experience
 * Search and filter through local items.
 * View clean checkout and product detail screens.
+
+## 📸  Screenshots
+
+### User Registration
+<img width="1535" height="726" alt="Screenshot 2026-07-16 123732" src="https://github.com/user-attachments/assets/a0f4ee3b-a0a4-4522-939a-cf0b06e2e3c5" />
+
+### User Objective Selection
+<img width="1536" height="452" alt="Screenshot 2026-07-16 124018" src="https://github.com/user-attachments/assets/e065d960-8fb0-4225-9136-914eaa049a73" />
+
+### Marketplace Feed
+<img width="1532" height="722" alt="Screenshot 2026-07-16 124101" src="https://github.com/user-attachments/assets/e8aeee05-b60b-4a36-a417-b638741f8a67" />
+
+### Product Listing
+<img width="1533" height="712" alt="Screenshot 2026-07-16 124357" src="https://github.com/user-attachments/assets/d7e57184-8ed9-4187-aaef-909439121f3f" />
